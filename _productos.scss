@@ -1,0 +1,34 @@
+.nuestroProductos {
+  width: 100%;
+  margin: auto;
+  min-height: 80vh;
+}
+
+.nuestroProductos .carta {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.productos img {
+  width: 300px;
+  max-width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.productos img:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}

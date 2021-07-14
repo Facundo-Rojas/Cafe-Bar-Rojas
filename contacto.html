@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header id="cabecera">
+      <div
+        class="navbar navbar-expand-lg navbar-dark bg-transparent"
+        id="navBar"
+      >
+        <div class="container">
+          <h1 class="fw-bold">Coffee Fox</h1>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#miLista"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="miLista"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link linkNav">Home </a>
+              </li>
+              <li class="nav-item itemsNav">
+                <a href="menu.html" class="nav-link linkNav">Menú </a>
+              </li>
+              <li class="nav-item">
+                <a href="productos.html" class="nav-link linkNav">Productos </a>
+              </li>
+              <li class="nav-item">
+                <a href="nosotros.html" class="nav-link linkNav">Nosotros </a>
+              </li>
+              <li class="nav-item">
+                <a href="contacto.html" class="nav-link linkNav">Contacto </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="mainContacto">
+      <h1>Dejanos tus sugerencias</h1>
+      <section class="formSeccion">
+        <form action="" method="¨POST">
+          <div class="inputLabel">
+            <label for="nombre">Nombre:</label>
+            <input
+              type="text"
+              id="Nombre"
+              name="nombre"
+              required
+              placeholder="escriba aqui"
+            />
+          </div>
+          <div class="inputLabel">
+            <label for="apellido">Apellido:</label>
+            <input
+              type="text"
+              id="Apellido"
+              name="apellido"
+              required
+              placeholder="escriba aqui"
+            />
+          </div>
+          <div class="inputLabel">
+            <label for="e-mail">E-mail:</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              required
+              placeholder="escriba aqui"
+            />
+          </div>
+          <div class="inputLabel">
+            <h3>Mensaje:</h3>
+            <textarea
+              name="mensaje"
+              id="mensaje"
+              cols="30"
+              rows="10"
+              placeholder="Dejanos tus comentarios"
+            ></textarea>
+          </div>
+          <button class="enviar" type="submit">Enviar</button>
+          <!-------<div>
+                <h3>Deseas recibir nuestras ofertas?</h3>
+                <input type="checkbox" name="acepta" value="1">
+            </div>
+            -->
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div>
+        <h3>Nuestras redes</h3>
+      </div>
+      <div>
+        <a href="https://www.instagram.com/" target="_blank"
+          ><img
+            src="img/instagram.png"
+            alt="Logo de Instagram"
+            title="Instagram"
+        /></a>
+        <a href="https://www.facebook.com/" target="_blank"
+          ><img src="img/facebook.png" alt="Logo de Facebook" title="Facebook"
+        /></a>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

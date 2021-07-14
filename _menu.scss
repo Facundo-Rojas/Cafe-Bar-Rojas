@@ -1,0 +1,58 @@
+.nuestroMenu {
+  width: 100%;
+  margin: auto;
+  min-width: 80vh;
+}
+
+div h2 {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1;
+}
+
+.menu {
+  width: 100%;
+  margin: auto;
+  min-width: 80vh;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+article h2 {
+  text-align: center;
+}
+
+.cafe {
+  background-image: url(img/cafe1.jpg);
+  background-position: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border: solid black 2px;
+  width: 30%;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+.dulce {
+  background-image: url(img/dulce.jpg);
+  background-position: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border: black solid 2px;
+  width: 30%;
+  overflow: hidden;
+}
+
+.salado {
+  background-image: url(img/salado.jpg);
+  background-position: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  border: black solid 2px;
+  width: 30%;
+  overflow: hidden;
+}

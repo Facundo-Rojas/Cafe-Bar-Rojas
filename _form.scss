@@ -1,0 +1,33 @@
+.mainContacto {
+  background-color: rgb(151, 140, 121);
+  margin: auto;
+  width: 100%;
+}
+.mainContacto h1 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 5px;
+  margin-bottom: 5px;
+}
+.formSeccion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 90%;
+  padding-bottom: 5px;
+}
+
+.inputLabel {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.inputLabel label {
+  margin-bottom: 5px;
+}
+.inputLabel h3 {
+  margin-bottom: 5px;
+}
